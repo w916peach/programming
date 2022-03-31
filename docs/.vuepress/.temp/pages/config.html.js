@@ -6,19 +6,15 @@ export const data = {
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1648745157000,
+    "contributors": [
+      {
+        "name": "taotao",
+        "email": "8073365+cuidctt@user.noreply.gitee.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "config.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
