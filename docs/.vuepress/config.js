@@ -10,8 +10,11 @@ module.exports = {
                 link: '/guide'
             },
             {
-                text: 'group',
-                children: [{ text: '配置', link: '/config/' }]
+                text: '前端经典问题',
+                children: [
+                    { text: '事件循环机制', link: '/classicalProblems/eventLoop/' },
+                    { text: '数组的reduce方法', link: '/classicalProblems/arrayExtends/reduce' },
+                ]
             }
         ],
         sidebar: 'auto'
