@@ -5,7 +5,7 @@
 
 Python是由荷兰人吉多·范罗苏姆（Guido von Rossum）发明的一种编程语言，是目前世界上最受欢迎和拥有最多用户群体的编程语言。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210816232538.png" width="85%">
+<img src="./imgs/20210816232538.png" width="85%">
 
 #### Python的历史
 
@@ -42,29 +42,29 @@ Python最主要的缺点是执行效率低，但是当我们更看重产品的�
 
 可以在[Python官方网站](https://www.python.org/downloads/)找到下载链接并下载Python 3的安装程序。
 
-![](https://gitee.com/jackfrued/mypic/raw/master/20210719222940.png)
+![](./imgs/20210719222940.png)
 
 对于Windows操作系统，可以下载“executable installer”。需要注意的是，如果在Windows 7环境下安装Python 3，需要先安装Service Pack 1补丁包，大家可以在Windows的“运行”中输入`winver`命令，从弹出的窗口上可以看到你的系统是否安装了该补丁包。如果没有该补丁包，一定要先通过“Windows Update”或者类似“CCleaner”这样的工具自动安装该补丁包，安装完成后通常需要重启你的Windows系统，然后再开始安装Python环境。
 
-![](https://gitee.com/jackfrued/mypic/raw/master/20210719222956.png)
+![](./imgs/20210719222956.png)
 
 双击运行刚才下载的安装程序，会打开Python环境的安装向导。在执行安装向导的时候，记得勾选“Add Python 3.x to PATH”选项，这个选项会帮助我们将Python的解释器添加到PATH环境变量中（不理解没关系，照做就行），具体的步骤如下图所示。
 
-![](https://gitee.com/jackfrued/mypic/raw/master/20210719223007.png)
+![](./imgs/20210719223007.png)
 
-![](https://gitee.com/jackfrued/mypic/raw/master/20210719223021.png)
+![](./imgs/20210719223021.png)
 
-![](https://gitee.com/jackfrued/mypic/raw/master/20210719223317.png)
+![](./imgs/20210719223317.png)
 
-![](https://gitee.com/jackfrued/mypic/raw/master/20210719223332.png)
+![](./imgs/20210719223332.png)
 
 安装完成后可以打开Windows的“命令行提示符”工具（或“PowerShell”）并输入`python --version`或`python -V`来检查安装是否成功，命令行提示符可以在“运行”中输入`cmd`来打开或者在“开始菜单”的附件中找到它。如果看了Python解释器对应的版本号（如：Python 3.7.8），说明你的安装已经成功了，如下图所示。
 
-![](https://gitee.com/jackfrued/mypic/raw/master/20210719223350.png)
+![](./imgs/20210719223350.png)
 
 > **说明**：如果安装过程显示安装失败或执行上面的命令报错，很有可能是因为你的Windows系统缺失了一些动态链接库文件或C构建工具导致的问题。可以在[微软官网](https://www.microsoft.com/zh-cn/download/details.aspx?id=48145)下载Visual C++ Redistributable for Visual Studio 2015文件进行修复，64位的系统需要下载有x64标记的安装文件。也可以通过下面的百度云盘地址获取修复工具，运行修复工具，按照如下图所示的方式进行修复，链接: https://pan.baidu.com/s/1iNDnU5UVdDX5sKFqsiDg5Q 提取码: cjs3。
 >
-> ![QQ20210711-0](https://gitee.com/jackfrued/mypic/raw/master/20210816234614.png)
+> ![QQ20210711-0](./imgs/20210816234614.png)
 
 除此之外，你还应该检查一下Python的包管理工具是否已经可用，对应的命令是`pip --version`。
 
@@ -129,19 +129,19 @@ Visual Studio Code（通常简称为VSCode）是一个由微软开发能够在Wi
 
 运行PyCharm，可以看到如下图所示的欢迎界面，可以选择“New Project”来创建一个新的项目。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210720102203.png" width="80%">
+<img src="./imgs/20210720102203.png" width="80%">
 
 创建项目的时候需要指定项目的路径并创建运行项目的”虚拟环境“，如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210720102822.png" width="80%">
+<img src="./imgs/20210720102822.png" width="80%">
 
 项目创建好以后会出现如下图所示的画面，我们可以通过在项目文件夹上点击鼠标右键，选择“New”菜单下的“Python File”来创建一个Python文件，创建好的Python文件会自动打开进入可编辑的状态。
 
-![image-20210720133621079](https://gitee.com/jackfrued/mypic/raw/master/20210720133621.png)
+![image-20210720133621079](./imgs/20210720133621.png)
 
 写好代码后，可以在编辑代码的窗口点击鼠标右键，选择“Run”菜单项来运行代码，下面的“Run”窗口会显示代码的执行结果，如下图所示。
 
-![image-20210720134039848](https://gitee.com/jackfrued/mypic/raw/master/20210720134039.png)
+![image-20210720134039848](./imgs/20210720134039.png)
 
 PyCharm常用的快捷键如下表所示，我们也可以在“File”菜单的“Settings”中定制PyCharm的快捷键（macOS系统是在“PyCharm”菜单的“Preferences”中对快捷键进行设置）。
 
@@ -1398,7 +1398,7 @@ a, b, c = b, c, a
 
 第二次世界大战促使了现代电子计算机的诞生，世界上的第一台通用电子计算机叫ENIAC（电子数值积分计算机），诞生于美国的宾夕法尼亚大学，占地167平米，重量27吨，每秒钟大约能够完成约5000次浮点运算，如下图所示。ENIAC诞生之后被应用于导弹弹道的计算，而数值计算也是现代电子计算机最为重要的一项功能。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210727163610.jpg" width="65%">
+./imgs/<img src="https://gitee.com/jackfrued/mypic/raw/master/20210727163610.jpg" width="65%">
 
 随着时间的推移，虽然数值运算仍然是计算机日常工作中最为重要的组成部分，但是今天的计算机还要处理大量的以文本形式存在的信息。如果我们希望通过Python程序来操作本这些文本信息，就必须要先了解字符串这种数据类型以及与它相关的知识。
 
@@ -1916,7 +1916,7 @@ print((set1 | set2) - (set1 & set2))      # {1, 3, 5, 7, 8, 10}
 
 通过上面的代码可以看出，对两个集合求交集，`&`运算符和`intersection`方法的作用是完全相同的，使用运算符的方式更直观而且代码也比较简短。相信大家对交集、并集、差集、对称差这几个概念是比较清楚的，如果没什么印象了可以看看下面的图。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210819154520.png" width="90%">
+<img src="./imgs/20210819154520.png" width="90%">
 
 集合的交集、并集、差集运算还可以跟赋值运算一起构成复合赋值运算，如下所示。
 
@@ -2028,7 +2028,7 @@ person3 = {'王大锤', 55, 60, '科华北路62号', '中同仁路8号', '131223
 
 说到字典这个词，大家一定不陌生，读小学的时候每个人基本上都有一本《新华字典》，如下图所示。
 
-![dictionary](https://gitee.com/jackfrued/mypic/raw/master/20210820204829.jpg)
+![dictionary](./imgs/20210820204829.jpg)
 
 Python程序中的字典跟现实生活中的字典很像，它以键值对（键和值的组合）的方式把数据组织到一起，我们可以通过键找到与之对应的值并进行操作。就像《新华字典》中，每个字（键）都有与它对应的解释（值）一样，每个字和它的解释合在一起就是字典中的一个条目，而字典中通常包含了很多个这样的条目。
 
@@ -3097,7 +3097,7 @@ def fib(n):
 
 在面向对象编程的世界中，**一切皆为对象**，**对象都有属性和行为**，**每个对象都是独一无二的**，而且**对象一定属于某个类**。对象的属性是对象的静态特征，对象的行为是对象的动态特征。按照上面的说法，如果我们把拥有共同特征的对象的属性和行为都抽取出来，就可以定义出一个类。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210731182741.png" width="75%">
+<img src="./imgs/20210731182741.png" width="75%">
 
 ### 定义类
 
@@ -3299,7 +3299,7 @@ print(p1.distance_to(p2))
 
 面向对象编程是一种非常流行的编程范式，除此之外还有**指令式编程**、**函数式编程**等编程范式。由于现实世界是由对象构成的，而对象是可以接收消息的实体，所以**面向对象编程更符合人类正常的思维习惯**。类是抽象的，对象是具体的，有了类就能创建对象，有了对象就可以接收消息，这就是面向对象编程的基础。定义类的过程是一个抽象的过程，找到对象公共的属性属于数据抽象，找到对象公共的方法属于行为抽象。抽象的过程是一个仁者见仁智者见智的过程，对同一类对象进行抽象可能会得到不同的结果，如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210731182914.png" width="75%">
+<img src="./imgs/20210731182914.png" width="75%">
 
 > **说明：** 本节课的插图来自于 Grady Booc 等撰写的《面向对象分析与设计》一书，该书是讲解面向对象编程的经典著作，有兴趣的读者可以购买和阅读这本书来了解更多的面向对象的相关知识。
 
@@ -3974,7 +3974,7 @@ Python标准库中有大量的模块，日常开发中有很多常见的任务�
 
 下图展示了如何根据程序的需要来设置`open`函数的操作模式。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210803201644.png" width="75%">
+<img src="./imgs/20210803201644.png" width="75%">
 
 在使用`open`函数时，如果打开的文件是字符文件（文本文件），可以通过`encoding`参数来指定读写文件使用的字符编码。如果对字符编码和字符集这些概念不了解，可以看看[《字符集和字符编码》](https://www.cnblogs.com/skynet/archive/2011/05/03/2035105.html)一文，此处不再进行赘述。
 
@@ -4230,11 +4230,11 @@ let obj = {
 }
 ```
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820143803.png" alt="image-20210820143756353" width="80%">
+<img src="./imgs/20210820143803.png" alt="image-20210820143756353" width="80%">
 
 上面的`obj`就是JavaScript中的一个对象，我们可以通过`obj.name`或`obj["name"]`两种方式获取到`name`对应的值，如下图所示。可以注意到，`obj["name"]`这种获取数据的方式跟Python字典通过键获取值的索引操作是完全一致的，而Python中也通过名为`json`的模块提供了字典与JSON双向转换的支持。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820144411.png" width="85%">
+<img src="./imgs/20210820144411.png" width="85%">
 
 我们在JSON中使用的数据类型（JavaScript数据类型）和Python中的数据类型也是很容易找到对应关系的，大家可以看看下面的两张表。
 
@@ -4403,7 +4403,7 @@ pip uninstall -y ujson
 
 国内有很多提供网络API接口的网站，例如[聚合数据](https://www.juhe.cn/)、[阿凡达数据](http://www.avatardata.cn/)等，这些网站上有免费的和付费的数据接口，国外的[{API}Search](http://apis.io/)网站也提供了类似的功能，有兴趣的可以自行研究。下面的例子演示了如何使用[`requests`](http://docs.python-requests.org/zh_CN/latest/)库（基于HTTP进行网络资源访问的三方库）访问网络API获取国内新闻并显示新闻标题和链接。在这个例子中，我们使用了名为[天行数据](https://www.tianapi.com/)的网站提供的国内新闻数据接口，其中的APIKey需要自己到网站上注册申请。在天行数据网站注册账号后会自动分配APIKey，但是要访问接口获取数据，需要绑定验证邮箱或手机，然后还要申请需要使用的接口，如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820151134.png" alt="image-20210820151134034" width="100%">
+<img src="./imgs/20210820151134.png" alt="image-20210820151134034" width="100%">
 
 Python通过URL接入网络，我们推荐大家使用`requests`三方库，它简单且强大，但需要自行安装。
 
@@ -4427,7 +4427,7 @@ if resp.status_code == 200:
 
 上面的代码通过`requests`模块的`get`函数向天行数据的国内新闻接口发起了一次请求，如果请求过程没有出现问题，`get`函数会返回一个`Response`对象，通过该对象的`status_code`属性表示HTTP响应状态码，如果不理解没关系，你只需要关注它的值，如果值等于`200`或者其他`2`字头的值，那么我们的请求是成功的。通过`Response`对象的`json()`方法可以将返回的JSON格式的数据直接处理成Python字典，非常方便。天行数据国内新闻接口返回的JSON格式的数据（部分）如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820154455.png" width="100%">
+<img src="./imgs/20210820154455.png" width="100%">
 
 > **提示**：上面代码中的APIKey需要换成自己在天行数据网站申请的APIKey。天行数据网站上还有提供了很多非常有意思的API接口，例如：垃圾分类、周公解梦等，大家可以仿照上面的代码来调用这些接口。每个接口都有对应的接口文档，文档中有关于如何使用接口的详细说明。
 
@@ -5080,7 +5080,7 @@ wb.save('demo.xlsx')
 
 运行上面的代码，打开生成的Excel文件，效果如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210819235009.png" alt="image-20210819235009026" width="75%">
+<img src="./imgs/20210819235009.png" alt="image-20210819235009026" width="75%">
 
 ###  简单的总结
 
@@ -5174,7 +5174,7 @@ document.save('demo.docx')
 
 执行上面的代码，打开生成的Word文档，效果如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820002742.png" alt="image-20210820002742341" width="40%">&nbsp;&nbsp;<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820002843.png" alt="image-20210820002843696" width="40%">
+<img src="./imgs/20210820002742.png" alt="image-20210820002742341" width="40%">&nbsp;&nbsp;<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820002843.png" alt="image-20210820002843696" width="40%">
 
 对于一个已经存在的Word文件，我们可以通过下面的代码去遍历它所有的段落并获取对应的内容。
 
@@ -5208,7 +5208,7 @@ for no, p in enumerate(doc.paragraphs):
 
 按照上面的思路，我们首先编辑一个离职证明的模板文件，如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820004223.png" alt="image-20210820004223731" width="75%" style="border:1px solid black"/>
+<img src="./imgs/20210820004223.png" alt="image-20210820004223731" width="75%" style="border:1px solid black"/>
 
 接下来我们读取该文件，将占位符替换为真实信息，就可以生成一个新的Word文档，如下所示。
 
@@ -5269,7 +5269,7 @@ for emp_dict in employees:
 
 执行上面的代码，会在当前路径下生成三个Word文档，如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820004825.png" alt="image-20210820004825183" width="50%">
+<img src="./imgs/20210820004825.png" alt="image-20210820004825183" width="50%">
 
 ### 生成PowerPoint
 
@@ -5325,7 +5325,7 @@ pres.save('test.pptx')
 
 运行上面的代码，生成的PowerPoint文件如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820010306.png" alt="image-20210820010306008" width="75%" />
+<img src="./imgs/20210820010306.png" alt="image-20210820010306008" width="75%" />
 
 ### 简单的总结
 
@@ -5530,7 +5530,7 @@ Pillow中最为重要的是`Image`类，可以通过`Image`模块的`open`函数
    image.show()
    ```
 
-   <img src="https://gitee.com/jackfrued/mypic/raw/master/20210803202628.png" width="80%">
+   <img src="./imgs/20210803202628.png" width="80%">
 
 2. 剪裁图像
 
@@ -5539,7 +5539,7 @@ Pillow中最为重要的是`Image`类，可以通过`Image`模块的`open`函数
    image.crop((80, 20, 310, 360)).show()
    ```
 
-   <img src="https://gitee.com/jackfrued/mypic/raw/master/20210803202701.png" width="80%">
+   <img src="./imgs/20210803202701.png" width="80%">
 
 3. 生成缩略图
 
@@ -5549,7 +5549,7 @@ Pillow中最为重要的是`Image`类，可以通过`Image`模块的`open`函数
    image.show()
    ```
 
-   <img src="https://gitee.com/jackfrued/mypic/raw/master/20210803202722.png" width="100%">
+   <img src="./imgs/20210803202722.png" width="100%">
 
 4. 缩放和黏贴图像
 
@@ -5567,7 +5567,7 @@ Pillow中最为重要的是`Image`类，可以通过`Image`模块的`open`函数
    luohao_image.show()
    ```
 
-   <img src="https://gitee.com/jackfrued/mypic/raw/master/20210803202749.png" width="80%">
+   <img src="./imgs/20210803202749.png" width="80%">
 
 5. 旋转和翻转
 
@@ -5581,7 +5581,7 @@ Pillow中最为重要的是`Image`类，可以通过`Image`模块的`open`函数
    image.transpose(Image.FLIP_TOP_BOTTOM).show()
    ```
 
-   <img src="https://gitee.com/jackfrued/mypic/raw/master/20210803202829.png" width="80%">
+   <img src="./imgs/20210803202829.png" width="80%">
 
 6. 操作像素
 
@@ -5593,7 +5593,7 @@ Pillow中最为重要的是`Image`类，可以通过`Image`模块的`open`函数
    image.show()
    ```
 
-   <img src="https://gitee.com/jackfrued/mypic/raw/master/20210803202932.png" width="80%">
+   <img src="./imgs/20210803202932.png" width="80%">
 
 7. 滤镜效果
 
@@ -5605,13 +5605,13 @@ Pillow中最为重要的是`Image`类，可以通过`Image`模块的`open`函数
    image.filter(ImageFilter.CONTOUR).show()
    ```
 
-   <img src="https://gitee.com/jackfrued/mypic/raw/master/20210803202953.png" width="80%">
+   <img src="./imgs/20210803202953.png" width="80%">
 
 ### 使用Pillow绘图
 
 Pillow中有一个名为`ImageDraw`的模块，该模块的`Draw`函数会返回一个`ImageDraw`对象，通过`ImageDraw`对象的`arc`、`line`、`rectangle`、`ellipse`、`polygon`等方法，可以在图像上绘制出圆弧、线条、矩形、椭圆、多边形等形状，也可以通过该对象的`text`方法在图像上添加文字。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210803203016.png" width="80%">
+<img src="./imgs/20210803203016.png" width="80%">
 
 要绘制如上图所示的图像，完整的代码如下所示。
 
@@ -5671,9 +5671,9 @@ image.save('result.png')
 
 我们先尝试一下发送一封极为简单的邮件，该邮件不包含附件、图片以及其他超文本内容。发送邮件首先需要接入邮件服务器，我们可以自己架设邮件服务器，这件事情对新手并不友好，但是我们可以选择使用第三方提供的邮件服务。例如，我在<www.126.com>已经注册了账号，登录成功之后，就可以在设置中开启SMTP服务，这样就相当于获得了邮件服务器，具体的操作如下所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820190307.png" alt="image-20210820190306861" width="95%">
+<img src="./imgs/20210820190307.png" alt="image-20210820190306861" width="95%">
 
-![image-20210820190816557](https://gitee.com/jackfrued/mypic/raw/master/20210820190816.png)
+![image-20210820190816557](./imgs/20210820190816.png)
 
 用手机扫码上面的二维码可以通过发送短信的方式来获取授权码，短信发送成功后，点击“我已发送”就可以获得授权码。授权码需要妥善保管，因为一旦泄露就会被其他人冒用你的身份来发送邮件。接下来，我们就可以编写发送邮件的代码了，如下所示。
 
@@ -5807,7 +5807,7 @@ def send_email(*, from_user, to_users, subject='', content='', filenames=[]):
 
 发送短信也是项目中常见的功能，网站的注册码、验证码、营销信息基本上都是通过短信来发送给用户的。发送短信需要三方平台的支持，下面我们以[螺丝帽平台](https://luosimao.com/)为例，为大家介绍如何用Python程序发送短信。注册账号和购买短信服务的细节我们不在这里进行赘述，大家可以咨询平台的客服。
 
-![image-20210820194420911](https://gitee.com/jackfrued/mypic/raw/master/20210820194421.png)
+![image-20210820194420911](./imgs/20210820194421.png)
 
 接下来，我们可以通过`requests`库向平台提供的短信网关发起一个HTTP请求，通过将接收短信的手机号和短信内容作为参数，就可以发送短信，代码如下所示。
 
@@ -5849,11 +5849,11 @@ if __name__ == '__main__':
 
 上面请求螺丝帽的短信网关`http://sms-api.luosimao.com/v1/send.json`会返回JSON格式的数据，如果返回`{'error': 0, 'msg': 'OK'}`就说明短信已经发送成功了，如果`error`的值不是`0`，可以通过查看官方的[开发文档](https://luosimao.com/docs/api/)了解到底哪个环节出了问题。螺丝帽平台常见的错误类型如下图所示。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210820195505.png" alt="image-20210820195505761" style="zoom:50%;">
+<img src="./imgs/20210820195505.png" alt="image-20210820195505761" style="zoom:50%;">
 
 目前，大多数短信平台都会要求短信内容必须附上签名，下图是我在螺丝帽平台配置的短信签名“【Python小课】”。有些涉及到敏感内容的短信，还需要提前配置短信模板，有兴趣的读者可以自行研究。一般情况下，平台为了防范短信被盗用，还会要求设置“IP白名单”，不清楚如何配置的可以咨询平台客服。
 
-![image-20210820194653785](https://gitee.com/jackfrued/mypic/raw/master/20210820194653.png)
+![image-20210820194653785](./imgs/20210820194653.png)
 
 当然国内的短信平台很多，读者可以根据自己的需要进行选择（通常会考虑费用预算、短信达到率、使用的难易程度等指标），如果需要在商业项目中使用短信服务建议购买短信平台提供的套餐服务。
 
@@ -5962,7 +5962,7 @@ if m1 and m2:
 
 下面这张图是截止到2017年底，国内三家运营商推出的手机号段。
 
-<img src="https://gitee.com/jackfrued/mypic/raw/master/20210803203134.png">
+<img src="./imgs/20210803203134.png">
 
 ```Python
 import re
