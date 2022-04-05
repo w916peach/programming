@@ -12,6 +12,12 @@ module.exports = {
       text: '指南',
       link: '/guide'
     }, {
+      text: 'python学习',
+      children: [{
+        text: 'python基础核心50讲',
+        link: '/PythonCoreCourses50'
+      }]
+    }, {
       text: '前端经典问题',
       children: [{
         text: '事件循环机制',
@@ -19,6 +25,12 @@ module.exports = {
       }, {
         text: '数组的reduce方法',
         link: '/classicalProblems/arrayExtends/reduce'
+      }]
+    }, {
+      text: '随笔',
+      children: [{
+        text: '密码学',
+        link: '/informalEssay/cryptography'
       }]
     }],
     sidebar: 'auto'
