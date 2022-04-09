@@ -13,7 +13,8 @@ module.exports = {
 			{
 				text: 'web前端开发课程',
 				children: [
-					{ text: '结构样式', link: '/webFrontEnd/htmlAndCss' }
+					{ text: '第1门课程：结构样式', link: '/webFrontEnd/htmlAndCss' },
+					{ text: '第2门课程：javaScript上', link: '/webFrontEnd/javaScript1' },
 				]
 			},
 			{
