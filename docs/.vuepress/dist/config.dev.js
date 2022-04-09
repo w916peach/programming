@@ -12,6 +12,18 @@ module.exports = {
       text: '指南',
       link: '/guide'
     }, {
+      text: 'web前端开发课程',
+      children: [{
+        text: '结构样式',
+        link: '/webFrontEnd/htmlAndCss'
+      }]
+    }, {
+      text: 'javaWeb开发课程',
+      children: [{
+        text: 'java基础',
+        link: '/javaWeb/javaBase'
+      }]
+    }, {
       text: 'python学习',
       children: [{
         text: 'python基础核心50讲',
@@ -33,13 +45,17 @@ module.exports = {
         link: '/informalEssay/cryptography'
       }]
     }],
-    sidebar: 'auto'
+    sidebar: 'auto',
+    sidebarDepth: 6
   },
   markdown: {
     importCode: {
       handleImportPath: function handleImportPath(str) {
         return str.replace(/^@codebase/, path.resolve(__dirname, '../../codeBase'));
       }
+    },
+    extractHeaders: {
+      level: [1, 2, 3, 4, 5, 6]
     }
   }
 };
