@@ -6,6 +6,13 @@ module.exports = {
   lang: 'zh-CN',
   title: 'programming',
   description: 'programming web site',
+  head: [['link', {
+    rel: 'manifest',
+    href: '/manifest.webmanifest'
+  }], ['meta', {
+    name: 'theme-color',
+    content: '#3eaf7c'
+  }]],
   themeConfig: {
     logo: '/assets/img/logo.png',
     navbar: [{
@@ -51,6 +58,7 @@ module.exports = {
     sidebar: 'auto',
     sidebarDepth: 6
   },
+  themePlugins: {},
   markdown: {
     importCode: {
       handleImportPath: function handleImportPath(str) {
@@ -60,5 +68,8 @@ module.exports = {
     extractHeaders: {
       level: [1, 2, 3, 4, 5, 6]
     }
-  }
+  },
+  plugins: [['@vuepress/pwa', {
+    skipWaiting: true
+  }]]
 };
