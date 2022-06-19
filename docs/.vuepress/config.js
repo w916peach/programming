@@ -46,6 +46,9 @@ module.exports = {
 				children: [
 					{
 						text: '密码学', link: '/informalEssay/cryptography'
+					},
+					{
+						text: 'ts类型问题', link: '/informalEssay/ts-type'
 					}
 				]
 			}
